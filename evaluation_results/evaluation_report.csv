@@ -1,0 +1,7 @@
+test,question,status,actual_value,response_time_seconds,error
+1,How much was spent in Q2 2013?,PASS,19013469394.04,0.871,
+2,How many purchase orders were created in March 2014?,PASS,5672,1.06,
+3,How many purchase orders are in the entire dataset?,PASS,200526,0.954,
+4,How much was spent in 2016?,PASS,,0.0,
+5,Compare spending between 2013 and 2014,PASS,,0.0,
+6,How many orders were created in Q2?,PASS,,0.0,

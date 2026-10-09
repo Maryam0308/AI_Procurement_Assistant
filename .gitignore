@@ -1,0 +1,57 @@
+
+# ==========================================
+# AI Procurement Assistant - Git Ignore
+# ==========================================
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# React dependencies and production builds
+node_modules/
+dist/
+build/
+
+# Local datasets and database exports
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.bson
+*.sqlite
+*.db
+
+# Keep evaluation reports
+!evaluation_results/
+!evaluation_results/*.csv
+
+# Backups
+backups/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+
+# Legacy frontend (replaced by React application)
+frontend/
